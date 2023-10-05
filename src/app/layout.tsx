@@ -1,7 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import {Providers} from "./providers";
-// import { Inter } from 'next/font/google'
 import Navbar from './_components/navbar'
 import Footer from './_components/footer'
 

@@ -13,40 +13,42 @@
             "title":"The Nomad Series",
             "content":"The Nomad Roof Top Tent is your ticket to the ultimate 4WD and camping adventure. Whether you're tackling challenging trails or embracing the tranquillity of nature, this tent brings comfort and reliability to your journey. Join the ranks of intrepid adventurers who have discovered the freedom of rooftop camping. Elevate your 4WD experience to new heights with the Nomad Roof Top Tent and conquer the off-road with confidence and style!"
         },
-        "features":{
-            "title": "Adventure-Ready Features",
-            "list":[
-                {
-                    "title": "Spacious Freedom",
-                    "description":"With an opening size of 211cm x 131cm x 148cm, you'll have room to unwind after a day of thrilling 4WD action."
-                },
-                {
-                    "title": "Compact Convenience",
-                    "description":"When it's time to hit the trail again, the tent folds down to a mere 211cm x 131cm x 18cm, ensuring a low-profile for your vehicle."
-                },
-                {
-                    "title": "Recharge Your Spirit",
-                    "description": "Enjoy a cosy night's sleep on the 205cm x 122cm x 5cm bed. For added luxury, opt for the 7cm thick mattress."
-                },
-                {
-                    "title": "Trail-Tough",
-                    "description": "With a gross weight of 78KG and a net weight of 61KG, this tent is built to withstand the challenges of off-road adventures."
-                }
-            ]
-        },
-        "materials":{
-            "title": "Engineered for the Elements",
-            "list":[
-                {
-                    "title": "Built to Conquer",
-                    "description": "Crafted from aluminium alloy honeycomb plate shell material, this tent can handle the most demanding terrains."
-                },
-                {
-                    "title": "Weather Warrior",
-                    "description": "The main canvas fabric, a 280G Polyester Cotton Lattice with a PU coating, boasts a waterproof index of 3000+. Rain, snow, or sunshine—your shelter is secure."
-                }
-            ]
-        },
+        "features":[
+            {
+                "title": "Adventure-Ready Features",
+                "list":[
+                    {
+                        "title": "Spacious Freedom",
+                        "description":"With an opening size of 211cm x 131cm x 148cm, you'll have room to unwind after a day of thrilling 4WD action."
+                    },
+                    {
+                        "title": "Compact Convenience",
+                        "description":"When it's time to hit the trail again, the tent folds down to a mere 211cm x 131cm x 18cm, ensuring a low-profile for your vehicle."
+                    },
+                    {
+                        "title": "Recharge Your Spirit",
+                        "description": "Enjoy a cosy night's sleep on the 205cm x 122cm x 5cm bed. For added luxury, opt for the 7cm thick mattress."
+                    },
+                    {
+                        "title": "Trail-Tough",
+                        "description": "With a gross weight of 78KG and a net weight of 61KG, this tent is built to withstand the challenges of off-road adventures."
+                    }
+                ]
+            },
+            {
+                "title": "Engineered for the Elements",
+                "list":[
+                    {
+                        "title": "Built to Conquer",
+                        "description": "Crafted from aluminium alloy honeycomb plate shell material, this tent can handle the most demanding terrains."
+                    },
+                    {
+                        "title": "Weather Warrior",
+                        "description": "The main canvas fabric, a 280G Polyester Cotton Lattice with a PU coating, boasts a waterproof index of 3000+. Rain, snow, or sunshine—your shelter is secure."
+                    }
+                ]
+            }
+        ],
         "includedAccessories":{
             "title": "Accessories to Fuel Your Adventure",
             "subtitle": "Enjoy your experience to the fullest with these included accessories.",
@@ -119,6 +121,466 @@
                 "200W Solar Panel",
                 "10,000mah Power Bank",
                 "270 Awning With Lights And Supports"
+            ]
+        }
+    },
+    "expeditionSeries": {
+        "title": "The Expedition Series",
+        "shopifyLink": "#",
+        "imageSrc": "/images/products/expedition.png",
+        "taglineTitle": "Discover the Ultimate Off-Road Oasis",
+        "taglineSubtitle": " The Expedition Roof Top Tent in Gray!",
+        "descriptionShort":{
+            "title": "Where Off-Road Meets Comfort",
+            "content": "The Expedition Roof Top Tent is your all-access pass to the wilderness, designed with 4WD enthusiasts and avid campers in mind. Whether you're tackling rugged trails or seeking a peaceful escape in nature, this tent delivers unbeatable comfort and convenience."
+        },
+        "descriptionLong":{
+            "title":"The Nomad Series",
+            "content":"The Expedition Roof Top Tent is your ticket to the ultimate 4WD and camping adventure. Whether you're tackling challenging trails or embracing the tranquillity of nature, this tent brings comfort and reliability to your journey. Join the ranks of intrepid adventurers who have discovered the freedom of rooftop camping. Elevate your 4WD experience to new heights with the Expedition Roof Top Tent and conquer the off-road with confidence and style!"
+        },
+        "features":[
+            {
+                "title": "Adventure-Ready Features",
+                "list":[
+                    {
+                        "title": "Spacious Freedom",
+                        "description":"With an opening size of 211cm x 131cm x 148cm, you'll have room to unwind after a day of thrilling 4WD action."
+                    },
+                    {
+                        "title": "Compact Convenience",
+                        "description":"When it's time to hit the trail again, the tent folds down to a mere 211cm x 131cm x 18cm, ensuring a low-profile for your vehicle."
+                    },
+                    {
+                        "title": "Recharge Your Spirit",
+                        "description": "Enjoy a cosy night's sleep on the 205cm x 122cm x 5cm bed. For added luxury, opt for the 7cm thick mattress."
+                    },
+                    {
+                        "title": "Trail-Tough",
+                        "description": "With a gross weight of 78KG and a net weight of 61KG, this tent is built to withstand the challenges of off-road adventures."
+                    }
+                ]
+            },
+            {
+                "title": "Engineered for the Elements",
+                "list":[
+                    {
+                        "title": "Built to Conquer",
+                        "description": "Crafted from aluminium alloy honeycomb plate shell material, this tent can handle the most demanding terrains."
+                    },
+                    {
+                        "title": "Weather Warrior",
+                        "description": "The main canvas fabric, a 280G Polyester Cotton Lattice with a PU coating, boasts a waterproof index of 3000+. Rain, snow, or sunshine—your shelter is secure."
+                    }
+                ]
+            }
+        ],
+        "includedAccessories":{
+            "title": "Accessories to Fuel Your Adventure",
+            "subtitle": "Enjoy your experience to the fullest with these included accessories.",
+            "list":[
+                {
+                    "title": "Roof Rack",
+                    "description": "Carry all your gear without compromising space."
+                },
+                {
+                    "title": "LED Lighting Strip",
+                    "description": "Illuminate your campsite for late-night gatherings."
+                },
+                {
+                    "title": "USB & Cigarette Outlet",
+                    "description": "Keep devices charged to capture every moment."
+                },
+                {
+                    "title": "Anderson Plug",
+                    "description": "Ensure you have a reliable power source for extended journeys."
+                },
+                {
+                    "title": "Condensation Pad",
+                    "description": "Wake up refreshed, not dampened."
+                }
+            ]
+        },
+        "optionalAccessories":{
+            "title": "Take Your Adventure Further",
+            "subtitle": "Enhance your experience with these optional accessories.",
+            "list":[
+                {
+                    "title": "200W Solar Panel",
+                    "description": "Stay off-grid for longer adventures."
+                },
+                {
+                    "title": "10,000mAh Powerbank",
+                    "description": "Keep your devices powered wherever the trail leads."
+                },
+                {
+                    "title": "270 Awning",
+                    "description": "Expand your outdoor living space, complete with lights and supports."
+                }
+            ]
+        },
+        "compactSpecifications":{
+            "specList": [
+                {"spec": "Product Name", "description": "Expedition Roof Top Tent"},
+                {"spec":"Colour", "description":"Gray"},
+                {"spec":"Opening Size", "description":"211 cm x 131 cm x 148 cm"},
+                {"spec":"Closing Size", "description":"211 cm x 131 cm x 18 cm"},
+                {"spec":"Bed Sizing", "description":"205 cm x 122 cm x 5 cm (Option Available For 7cm Thick Mattress)"},
+                {"spec":"Packaging Size", "description":"226 cm x 145 cm x 23 cm"},
+                {"spec":"Main Fabric (Canvas)", "description":"280G Polyester Cotton Lattice PU Coating, Waterproof Index 3000+"},
+                {"spec":"Shell Material", "description":"Aluminium Alloy Honeycomb Plate"},
+                {"spec":"Ladder", "description":"Aluminium Alloy Telescopic 2.3 m"},
+                {"spec":"Gross Weight", "description":"78 kg"},
+                {"spec":"Net Weight", "description":"61 kg"},
+                {"spec":"Stationary Load Bearing", "description":"300 kg"},
+                {"spec":"Living Area", "description":"2.7 sq meters"}
+            ],
+            "includedAccessories":[
+                "Roof Rack",
+                "LED Lighting Strip",
+                "USB & Cigarette Outlet",
+                "Anderson Plug",
+                "Condensation Pad",
+                "12V Switch Panel With Voltmeter"
+            ],
+            "optionalAccessories":[
+                "200W Solar Panel",
+                "10,000mah Power Bank",
+                "270 Awning With Lights And Supports"
+            ]
+        }
+    },
+    "trekkerSeries": {
+        "title": "The Trekker Series",
+        "shopifyLink": "#",
+        "imageSrc": "/images/products/trekker.png",
+        "taglineTitle": "Introducing the Trekker Roof Top Tent",
+        "taglineSubtitle": "Your Ultimate Adventure Companion!",
+        "descriptionShort":{
+            "title": "Choose Your Style",
+            "content": "Our Trekker Roof Top Tent is available in a stylish grey colour with options for a sleek black or pristine white lid to match your outdoor aesthetic."
+        },
+        "descriptionLong":{
+            "title":"The Trekker Series",
+            "content":"The Trekker Roof Top Tent is more than just a tent; it's a ticket to incredible outdoor experiences. Whether you're a seasoned explorer or new to rooftop camping, this tent takes your journey to new heights. Ready to embark on your next Outback Odyssey? Choose the Trekker Roof Top Tent and set out on your adventures with confidence and style!"
+        },
+        "features":[
+            {
+                "title": "Effortless Setup, Elevated Exploration",
+                "list":[
+                    {
+                        "title": "Spacious Freedom",
+                        "description": "With an opening size of 216cm x 130cm x 105cm, you'll have room to stretch out and enjoy the view."
+                    },
+                    {
+                        "title": "Compact Convenience",
+                        "description":"When it's time to hit the road, the tent folds down to a manageable 216cm x 130cm x 35cm, ensuring hassle-free transport."
+                    },
+                    {
+                        "title": "Bedtime Bliss",
+                        "description": "Rest easy on the 208cm x 126cm x 5cm mattress, delivering a peaceful night's sleep."
+                    }
+                ]
+            },
+            {
+                "title": "Climb Up, Wind Down",
+                "list":[
+                    {
+                        "title": "Effortless Access",
+                        "description":"Ascend to your lofty retreat with the included 2.3-meter-long telescopic ladder made of high-quality aluminium alloy."
+                    },
+                    {
+                        "title": "Manageable Weight",
+                        "description":"With a gross weight of 79KG and a net weight of 61KG, this rooftop tent offers a perfect balance of strength and portability."
+                    }
+                ]
+            },
+            {
+                "title": "Engineered for the Elements",
+                "list":[
+                    {
+                        "title": "Robust Construction",
+                        "description": "Crafted with a durable ABS composite material shell, this tent is built to withstand the toughest conditions."
+                    },
+                    {
+                        "title": "Weatherproof Comfort",
+                        "description": "The main canvas fabric features a 280G Polyester Cotton Lattice Coating with a waterproof index of 3000+, keeping you dry and cozy in any weather."
+                    }
+                ]
+            }
+        ],
+        "includedAccessories":{
+            "title": "All the Essentials Included",
+            "subtitle": "Enjoy your experience to the fullest with these included accessories.",
+            "list":[
+                {
+                    "title": "Customized Comfort",
+                    "description": "The Trekker Roof Top Tent comes complete with a comfortable mattress, ensuring you're well-rested for your adventures."
+                },
+                {
+                    "title": "Effortless Setup",
+                    "description": "The included ladder and mounting hardware make installation a breeze."
+                }
+            ]
+        },
+        "optionalAccessories":{
+            "title": "Discover Optional Accessories",
+            "subtitle": "Enhance your experience with these optional accessories.",
+            "list":[
+                {
+                    "title": "Personalize Your Setup",
+                    "description": "Enhance your experience with a range of optional accessories, from awnings to lighting and more."
+                }
+            ]
+        },
+        "compactSpecifications":{
+            "specList": [
+                {"spec": "Product Name", "description": "Trekker Roof Top Tent"},
+                {"spec":"Colour", "description":"Gray (Black or White Lid option)"},
+                {"spec":"Opening Size", "description":"216 cm x 130 cm x 105 cm"},
+                {"spec":"Closing Size", "description":"216 cm x 130 cm x 35 cm"},
+                {"spec":"Bed Sizing", "description":"208 cm x 126 cm x 5 cm"},
+                {"spec":"Packaging Size", "description":"222 cm x 139 cm x 35 cm"},
+                {"spec":"Main Fabric (Canvas)", "description":"280G Polyester Cotton Lattice Coating, Waterproof index 3000+"},
+                {"spec":"Shell Material", "description":"ABS composite material"},
+                {"spec":"Ladder", "description":"Aluminium Alloy Telescopic 2.3 m"},
+                {"spec":"Gross Weight", "description":"79 kg"},
+                {"spec":"Net Weight", "description":"61 kg"}
+            ],
+            "includedAccessories":[
+                "Comfortable Mattress",
+                "Aluminium Ladder",
+                "Mounting Hardware"
+            ],
+            "optionalAccessories":[
+                "200W Solar Panel",
+                "10,000mah Power Bank",
+                "270 Awning With Lights And Supports"
+            ]
+        }
+    },
+    "explorerSeries": {
+        "title": "The Explorer Series",
+        "shopifyLink": "#",
+        "imageSrc": "/images/products/explorer.png",
+        "taglineTitle": "Introducing the Explorer Roof Top Tent",
+        "taglineSubtitle": "Elevate Your Adventure!",
+        "descriptionShort":{
+            "title": "Colour Your Journey",
+            "content": "Our Explorer Roof Top Tent comes in a sleek grey colour, blending seamlessly with the rugged outdoor backdrop."
+        },
+        "descriptionLong":{
+            "title":"The Explorer Series",
+            "content":"The Explorer Roof Top Tent is more than just a tent; it's a gateway to unforgettable outdoor experiences. Whether you're an intrepid explorer or a weekend warrior, this tent elevates your journey. Ready to embark on your next Outback Odyssey? Choose the Explorer Roof Top Tent and set off on your adventures with confidence and style!"
+        },
+        "features":[
+            {
+                "title": "Effortless Setup, Boundless Exploration",
+                "list":[
+                    {
+                        "title": "Spacious Entry",
+                        "description":"With an opening size of 216cm x 130cm x 95cm, you'll have room to relax and relish the panoramic view."
+                    },
+                    {
+                        "title": "Compact Convenience",
+                        "description":"When it's time to hit the road, the tent closes to a mere 216cm x 130cm x 24cm, ensuring easy transport."
+                    },
+                    {
+                        "title": "Bedtime Bliss",
+                        "description": "Enjoy a comfortable night's sleep on the 208cm x 126cm x 5cm mattress, providing you with rejuvenating rest."
+                    }
+                ]
+            },
+            {
+                "title": "Climb Up, Wind Down",
+                "list":[
+                    {
+                        "title": "Easy Access",
+                        "description":"Ascend to your elevated retreat with the included aluminium alloy telescopic ladder, measuring 2.3 meters in length."
+                    },
+                    {
+                        "title": "Manageable Weight",
+                        "description":"With a gross weight of 80KG and a net weight of 62KG, this rooftop tent balances durability and portability."
+                    }
+                ]
+            },
+            {            
+                "title": "Built For The Wild",
+                "list":[
+                    {
+                        "title": "Rugged Construction",
+                        "description": "Crafted with an aluminium alloy honeycomb plate shell material, this tent is engineered to endure the toughest conditions."
+                    },
+                    {
+                        "title": "Weather Warrior",
+                        "description": " The main canvas fabric, featuring a 280G Polyester Cotton Lattice Coating with a waterproof index of 3000+, keeps you dry and cosy, no matter the weather."
+                    }
+                ]
+            }
+        ],
+        "includedAccessories":{
+            "title": "All the Extras You Need",
+            "subtitle": "Enjoy your experience to the fullest with these included accessories.",
+            "list":[
+                {
+                    "title": "Roof Rack",
+                    "description": "Carry extra gear with ease."
+                },
+                {
+                    "title": "LED Lighting Strip",
+                    "description": "Illuminate your campsite and create the perfect ambiance."
+                },
+                {
+                    "title": "USB & Cigarette Outlet",
+                    "description": "Keep your devices charged, ensuring you're always connected."
+                },
+                {
+                    "title": "Anderson Plug",
+                    "description": "Secure a reliable power source for your adventures."
+                },
+                {
+                    "title": "Condensation Pad",
+                    "description": "Wake up refreshed, not dampened."
+                }
+            ]
+        },
+        "optionalAccessories":{
+            "title": "Take Your Adventure Further",
+            "subtitle": "Enhance your experience with these optional accessories.",
+            "list":[
+                {
+                    "title": "200W Solar Panel",
+                    "description": "Extend your off-grid adventures with sustainable power."
+                },
+                {
+                    "title": "10,000mAh Powerbank",
+                    "description": "Ensure your devices are always charged, no matter where you roam."
+                },
+                {
+                    "title": "270 Awning",
+                    "description": "Expand your living space and enjoy shade and shelter, complete with lights and supports."
+                }
+            ]
+        },
+        "compactSpecifications":{
+            "specList": [
+                {"spec": "Product Name", "description": "Explorer Roof Top Tent"},
+                {"spec":"Colour", "description":"Gray"},
+                {"spec":"Opening Size", "description":"216 cm x 130 cm x 95 cm"},
+                {"spec":"Closing Size", "description":"216 cm x 130 cm x 24 cm"},
+                {"spec":"Bed Sizing", "description":"208 cm x 126 cm x 5 cm"},
+                {"spec":"Packaging Size", "description":"222 cm x 139 cm x 25 cm"},
+                {"spec":"Main Fabric (Canvas)", "description":"280G Polyester Cotton Lattice Coating, Waterproof index 3000+"},
+                {"spec":"Shell Material", "description":"Aluminium Alloy Honeycomb Plate"},
+                {"spec":"Ladder", "description":"Aluminium Alloy Telescopic 2.3 m"},
+                {"spec":"Gross Weight", "description":"80 kg"},
+                {"spec":"Net Weight", "description":"62 kg"}
+            ],
+            "includedAccessories":[
+                "Roof Rack",
+                "LED Lighting Strip",
+                "USB & Cigarette Outlet",
+                "Anderson Plug",
+                "Condensation Pad"
+            ],
+            "optionalAccessories":[
+                "200W Solar Panel",
+                "10,000mah Power Bank",
+                "270 Awning With Lights And Supports"
+            ]
+        }
+    },
+    "200wSolarPanel": {
+        "title": "200W Solar Panel",
+        "shopifyLink": "#",
+        "imageSrc": "/images/products/panel.png",
+        "taglineTitle": "Introducing Sustainable Power for Aluminum Rooftop Tents",
+        "taglineSubtitle": "The Portable 200W Solar Panel.",
+        "descriptionShort":{
+            "title": "Enjoy The Freedom of Off-Grid Power",
+            "content":"Upgrade your rooftop tent setup with the Safari Seekers 200W Solar Panel and enjoy the freedom of sustainable, off-grid power. Make the most of your outdoor adventures with reliable, clean energy at your fingertips."
+        },
+        "descriptionLong":{
+            "title":"",
+            "content":"Enhance your rooftop tent setup with the Safari Seekers 200W Solar Panel, designed to provide you with a reliable and sustainable power source for your outdoor adventures. Whether you're off the grid or simply want to reduce your environmental footprint, this solar panel is your key to harnessing the power of the sun."
+        },
+        "accessoryFeatures":[
+            {
+                "title":"Efficient Solar Power",
+                "description":"With a 200W capacity, this solar panel efficiently converts sunlight into electricity, ensuring you have ample power for charging your devices, running lights, or even operating small appliances while enjoying the great outdoors."
+            },
+            {
+                "title":"Durable and Lightweight",
+                "description":"Crafted with durability in mind, this solar panel features high-quality materials that can withstand the rigors of outdoor use. The aluminium construction not only makes it lightweight but also rust-resistant, ensuring a long-lasting and reliable performance."
+            },
+            {
+                "title":"Easy Installation",
+                "description":"Setting up the Safari Seekers 200W Solar Panel is a breeze. It comes with all the necessary mounting hardware, making installation on your aluminium rooftop tent a straightforward process. You'll be generating power in no time."
+            },
+            {
+                "title":"Versatile Compatibility",
+                "description":"This solar panel is designed to work seamlessly with a wide range of devices and systems. Whether you're charging your smartphone, running LED lights, or powering a portable fridge, you can trust this solar panel to meet your energy needs."
+            },
+            {
+                "title":"Compact and Portable",
+                "description":"When it's time to hit the road, the solar panel folds down to a compact size, allowing for easy storage and transportation. It's the perfect companion for your on-the-go adventures."
+            },
+            {
+                "title":"Sustainable Energy Source",
+                "description":"By harnessing the power of the sun, you not only reduce your dependence on conventional energy sources but also contribute to a cleaner environment. The Safari Seekers 200W Solar Panel is your ticket to eco-friendly camping and exploration."
+            }
+        ]
+    },
+    "270Awning": {
+        "title": "200W Solar Panel",
+        "shopifyLink": "#",
+        "imageSrc": "/images/products/awning.png",
+        "taglineTitle": "The Ultimate Adventure Companion",
+        "taglineSubtitle": "Introducing the Safari Seekers 270 Degree Awning",
+        "descriptionShort":{
+            "title": "Enjoy The Freedom of Off-Grid Power",
+            "content":"Are you ready to elevate your outdoor experience to new heights? Look no further than the Safari Seekers 270 Degree Awning. Designed for the modern-day adventurer, this awning is your gateway to a world of comfort, convenience, and protection, whether you're camping in the wilderness or embarking on an epic road trip."
+        },
+        "descriptionLong":{
+            "title":"",
+            "content":"Elevate your outdoor adventures with the Safari Seekers 270 Degree Awning - a reliable, versatile, and stylish addition to your gear collection. Don't miss out on the opportunity to create unforgettable memories in the great outdoors while enjoying the comfort and convenience of this exceptional awning. Get yours today and embark on a journey of limitless possibilities!"
+        },
+        "accessoryFeatures":[
+            {
+                "title":"Unparalleled Versatility",
+                "description":"With an impressive opening size boasting a radius of 2 meters, this awning provides you with a spacious haven from the elements. Its stylish grey colour not only complements your outdoor aesthetic but also ensures that you're ready for any adventure that comes your way. Plus, you have the option to customize it with your own branding, making it uniquely yours."
+            },
+            {
+                "title":"Built to Withstand the Elements",
+                "description":"Constructed from high-quality materials, the Safari Seekers 270 Degree Awning is engineered to take on the toughest conditions. The 600D PU fabric offers exceptional durability and boasts a waterproof index of 3000mm, keeping you dry during sudden downpours. Its water-resistant and UV-resistant properties ensure that you stay comfortable even in adverse weather, while the UV 50+ protection safeguards you from the sun's harsh rays."
+            },
+            {
+                "title":"Robust and Reliable",
+                "description":"The outer bag, made from heavy-duty 550G PVC, ensures that your awning remains safe and secure during transportation. The frame is crafted from premium aluminium alloy pipes (22/25mm), ensuring sturdiness and longevity. The inclusion of built-in legs not only enhances stability but also simplifies setup, allowing you to have your awning ready in no time."
+            },
+            {
+                "title":"Light Up Your Nights",
+                "description":"One of the standout features of the Safari Seekers 270 Degree Awning is the integrated lighting system. No need to fumble with external lighting solutions; simply switch on the built-in lights to illuminate your campsite. Whether you're enjoying a late-night meal, reading a book, or just relaxing with friends, this added feature creates a warm and inviting ambiance."
+            },
+            {
+                "title":"Conveniently Portable",
+                "description":"Despite its impressive size and features, the awning is surprisingly lightweight, with a Gross Weight (G.W) of 18kgs and a Net Weight (N.W) of 16kgs. When it's time to hit the road, the awning conveniently packs down to a compact 207x17x17cm size, making it easy to transport to your next destination."
+            }
+        ],
+        "compactSpecifications":{
+            "specList": [
+                {"spec": "Product Name", "description": "270 Degree Awning"},
+                {"spec":"Colour", "description":"Gray"},
+                {"spec":"Opening Size", "description":"2 m Radius"},
+                {"spec":"Package Size", "description":"207 cm x 17 cm x 17 cm"},
+                {"spec":"Fabric", "description":"600D PU, Waterproof (3000mm), UV 50+"},
+                {"spec":"Outer Bag Material", "description": "550G PVC"},
+                {"spec":"Frame", "description":"Aluminium Alloy Pipes (22/25mm)"},
+                {"spec":"Gross Weight", "description":"18 kg"},
+                {"spec":"Net Weight", "description":"16 kg"}
+            ],
+            "includedAccessories":[
+                "Built-In Light",
+                "Legs for Stability"
             ]
         }
     }
