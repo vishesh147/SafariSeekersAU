@@ -67,9 +67,9 @@ export default function App({ params }: { params: { slug: string } }) {
       </div>
 
       <div className='px-6 md:px-12 pb-6 md:pb-12'>
-        {product.features && product.features.map((featureCategory:any) => {
+        {product.features && product.features.map((featureCategory:any, index:any) => {
           return(
-            <div className='mb-12 md:mb-16'>
+            <div className='mb-12 md:mb-16' key={index}>
               <h1 className="text-lg md:text-2xl font-medium mb-6">
                 {featureCategory.title}
               </h1>
@@ -98,7 +98,7 @@ export default function App({ params }: { params: { slug: string } }) {
               {
                 product.accessoryFeatures.map((feature:any, index:any) => {
                   return (
-                    <div>
+                    <div key={index}>
                       <h2 className='md:text-lg font-semibold'>{feature.title}</h2>
                       <p className='text-justify'>
                         {feature.description}
