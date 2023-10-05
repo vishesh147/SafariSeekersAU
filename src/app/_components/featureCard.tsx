@@ -8,7 +8,7 @@ export default function FeatureCard(props: { className: string; imgSrc: string |
       <CardHeader className="flex bg-transparent justify-center">
         <Image
           alt="Feature Card"
-          className="object-cover h-40 w-40 rounded-full"
+          className="object-contain w-full md:w-auto md:h-60"
           src={props.imgSrc}
         />
       </CardHeader>

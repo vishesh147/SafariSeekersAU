@@ -94,7 +94,7 @@ export default function App() {
             />
             <FeatureCard 
               className=""
-              imgSrc="images/kenya.jpg"
+              imgSrc="images/kenyasq.png"
               title="African Inspiration"
               content="Infused with the warmth of African hospitality, 
                 we bring a unique touch to your outdoor adventures."

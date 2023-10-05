@@ -23,7 +23,7 @@ export default function App(){
                     <div className='py-2'>
                         <h4 className='font-medium'>Email:</h4>
                         <p>If you prefer electronic communication, drop us an email at                                 
-                            <a className="font-medium text-blue-600" href="mailto: sales@safariseeker.com.au"> sales@safariseeker.com.au</a>. 
+                            <a className="font-medium text-blue-600" href="mailto: {sales@safariseekers.com.au}"> sales@safariseekers.com.au</a>. 
                             We typically respond within 24 hours.
                         </p>
                     </div>

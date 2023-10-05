@@ -30,7 +30,7 @@ export default function Footer() {
                             <div className="mr-3 w-[24px]">
                                 <BsEnvelopeAt className="text-lg" />
                             </div>
-                            sales@safariseeker.com.au
+                            sales@safariseekers.com.au
                         </div>
                         {/* <div className="flex items-center mb-2 md:mb-0">
                             <div className="mr-3 w-[24px]">
