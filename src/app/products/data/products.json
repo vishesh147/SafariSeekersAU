@@ -1,0 +1,125 @@
+{
+    "nomadSeries": {
+        "title": "The Nomad Series",
+        "shopifyLink": "#",
+        "imageSrc": "/images/products/nomad.png",
+        "taglineTitle": "Discover the Ultimate Off-Road Oasis",
+        "taglineSubtitle": "The Nomad Roof Top Tent in Gray.",
+        "descriptionShort":{
+            "title": "Where Off-Road Meets Comfort",
+            "content": "The Nomad Roof Top Tent is your all-access pass to the wilderness, designed with 4WD enthusiasts and avid campers in mind. Whether you're tackling rugged trails or seeking a peaceful escape in nature, this tent delivers unbeatable comfort and convenience."
+        },
+        "descriptionLong":{
+            "title":"The Nomad Series",
+            "content":"The Nomad Roof Top Tent is your ticket to the ultimate 4WD and camping adventure. Whether you're tackling challenging trails or embracing the tranquillity of nature, this tent brings comfort and reliability to your journey. Join the ranks of intrepid adventurers who have discovered the freedom of rooftop camping. Elevate your 4WD experience to new heights with the Nomad Roof Top Tent and conquer the off-road with confidence and style!"
+        },
+        "features":{
+            "title": "Adventure-Ready Features",
+            "list":[
+                {
+                    "title": "Spacious Freedom",
+                    "description":"With an opening size of 211cm x 131cm x 148cm, you'll have room to unwind after a day of thrilling 4WD action."
+                },
+                {
+                    "title": "Compact Convenience",
+                    "description":"When it's time to hit the trail again, the tent folds down to a mere 211cm x 131cm x 18cm, ensuring a low-profile for your vehicle."
+                },
+                {
+                    "title": "Recharge Your Spirit",
+                    "description": "Enjoy a cosy night's sleep on the 205cm x 122cm x 5cm bed. For added luxury, opt for the 7cm thick mattress."
+                },
+                {
+                    "title": "Trail-Tough",
+                    "description": "With a gross weight of 78KG and a net weight of 61KG, this tent is built to withstand the challenges of off-road adventures."
+                }
+            ]
+        },
+        "materials":{
+            "title": "Engineered for the Elements",
+            "list":[
+                {
+                    "title": "Built to Conquer",
+                    "description": "Crafted from aluminium alloy honeycomb plate shell material, this tent can handle the most demanding terrains."
+                },
+                {
+                    "title": "Weather Warrior",
+                    "description": "The main canvas fabric, a 280G Polyester Cotton Lattice with a PU coating, boasts a waterproof index of 3000+. Rain, snow, or sunshine—your shelter is secure."
+                }
+            ]
+        },
+        "includedAccessories":{
+            "title": "Accessories to Fuel Your Adventure",
+            "subtitle": "Enjoy your experience to the fullest with these included accessories.",
+            "list":[
+                {
+                    "title": "Roof Rack",
+                    "description": "Carry all your gear without compromising space."
+                },
+                {
+                    "title": "LED Lighting Strip",
+                    "description": "Illuminate your campsite for late-night gatherings."
+                },
+                {
+                    "title": "USB & Cigarette Outlet",
+                    "description": "Keep devices charged to capture every moment."
+                },
+                {
+                    "title": "Anderson Plug",
+                    "description": "Ensure you have a reliable power source for extended journeys."
+                },
+                {
+                    "title": "Condensation Pad",
+                    "description": "Wake up refreshed, not dampened."
+                }
+            ]
+        },
+        "optionalAccessories":{
+            "title": "Take Your Adventure Further",
+            "subtitle": "Enhance your experience with these optional accessories.",
+            "list":[
+                {
+                    "title": "200W Solar Panel",
+                    "description": "Stay off-grid for longer adventures."
+                },
+                {
+                    "title": "10,000mAh Powerbank",
+                    "description": "Keep your devices powered wherever the trail leads."
+                },
+                {
+                    "title": "270 Awning",
+                    "description": "Expand your outdoor living space, complete with lights and supports."
+                }
+            ]
+        },
+        "compactSpecifications":{
+            "specList": [
+                {"spec": "Product Name", "description": "Nomad Roof Top Tent"},
+                {"spec":"Colour", "description":"Gray"},
+                {"spec":"Opening Size", "description":"211 cm x 131 cm x 148 cm"},
+                {"spec":"Closing Size", "description":"211 cm x 131 cm x 18 cm"},
+                {"spec":"Bed Sizing", "description":"205 cm x 122 cm x 5 cm (Option Available For 7cm Thick Mattress)"},
+                {"spec":"Packaging Size", "description":"226 cm x 145 cm x 23 cm"},
+                {"spec":"Main Fabric (Canvas)", "description":"280G Polyester Cotton Lattice PU Coating, Waterproof Index 3000+"},
+                {"spec":"Shell Material", "description":"Aluminium Alloy Honeycomb Plate"},
+                {"spec":"Ladder", "description":"Aluminium Alloy Telescopic 2.3 m"},
+                {"spec":"Gross Weight", "description":"78 kg"},
+                {"spec":"Net Weight", "description":"61 kg"},
+                {"spec":"Stationary Load Bearing", "description":"300 kg"},
+                {"spec":"Living Area", "description":"2.7 sq meters"}
+            ],
+            "includedAccessories":[
+                "Roof Rack",
+                "LED Lighting Strip",
+                "USB & Cigarette Outlet",
+                "Anderson Plug",
+                "Condensation Pad",
+                "12V Switch Panel With Voltmeter"
+            ],
+            "optionalAccessories":[
+                "200W Solar Panel",
+                "10,000mah Power Bank",
+                "270 Awning With Lights And Supports"
+            ]
+        }
+    }
+}
