@@ -58,9 +58,9 @@ export default function App({ params }: { params: { slug: string } }) {
             </p>
           </div>  
           <div className='mb-4'>
-            <Button size="md" as={Link} href="#" radius="md" variant="flat" color="primary"
+            <Button size="md" as={Link} href={product.shopifyLink} radius="md" variant="flat" color="primary"
               className="dark:brightness-125 ">
-              Go To Shopify <FaShopify className="mx-0"/>
+              View Pricing <FaShopify className="mx-0"/>
             </Button>
           </div>
         </div>
