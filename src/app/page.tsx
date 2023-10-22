@@ -9,15 +9,34 @@ import { Carousel } from 'react-responsive-carousel';
 import { BsTelephoneFill } from 'react-icons/bs';
 
 
+const carouselImages = [
+  '/images/explorer.png',
+  '/images/australia.jpg',
+  '/images/full.jpg',
+  '/images/kenya.jpg',
+  '/images/newbanner.jpg',  
+  '/images/getstarted.jpg',
+]
+
 export default function App() {
   return (
     <main>
-        <Image fill style={{objectFit:"cover"}} src='/images/banner.jpg' alt='Banner Image'/>
+        <Image fill style={{objectFit:"cover"}} src='/images/banner.jpg' alt='Banner Image' className="brightness-75" />
         <div className='h-screen flex backdrop-blur-sm lg:backdrop-blur-none md:items-center'>
-          <div className='text-center md:text-start w-full md:w-1/2 lg:w-1/3 pt-44 md:p-0'>
-            <h1 className='z-10 px-4 md:pl-16 lg:pl-28 text-slate-100 font-semibold text-4xl sm:text-5xl md:text-6xl'>
-              Safari Seekers <br/> Your Gateway to Adventure
-            </h1>
+          <div className='z-10 px-6 text-slate-100 w-full text-center md:text-start
+              md:w-1/2 lg:w-1/3 pt-52 md:p-0 md:pl-16 lg:pl-28 px-8 sm:px-12 md:px-0'>
+            {/* <h1 className='mb-1 md:mb-2 text-4xl sm:text-5xl md:text-6xl'>
+              Safari Seekers 
+            </h1> */}
+            <div className='font-semibold mb-2 md:mb-4 flex justify-center'>
+              <Image className="w-full sm:w-2/3 md:w-full" src="/images/logos/textonly2.png" width={1280} height={135} alt='Safari Seekers'/>
+            </div>
+            <h2 className='font-semibold md:mb-2 text-2xl sm:text-3xl md:text-4xl'> 
+              Your Gateway to Adventure
+            </h2>
+            <h3 className='sm:text-lg italic md:text-xl'>
+              Premium Roof Top Tents and Accessories
+            </h3>
           </div>
         </div>
 
@@ -43,27 +62,23 @@ export default function App() {
             <div className='col-span-2'>
               <Carousel autoPlay interval={3000} infiniteLoop centerMode centerSlidePercentage={60}
                 showIndicators={false} showThumbs={false} showStatus={false} className="hidden lg:block">
-                <div className='h-60 lg:h-80 mx-2'>
-                    <img className='h-full rounded-xl object-cover' src="/images/explorer.png" />
-                </div>
-                <div className='h-60 lg:h-80 mx-2'>
-                    <img className='h-full rounded-xl object-cover' src="/images/australia.jpg" />
-                </div>             
-                <div className='h-60 lg:h-80 mx-2'>
-                    <img className='h-full rounded-xl object-cover' src="/images/kenya.jpg" />
-                </div>
+                {carouselImages.map((imgSource, index) => {
+                  return (                
+                    <div className='h-60 lg:h-80 mx-2' key={index}>
+                      <img className='h-full rounded-xl object-cover' src={imgSource} />
+                    </div>
+                  )
+                })}
               </Carousel>
               <Carousel autoPlay interval={3000} infiniteLoop centerMode centerSlidePercentage={80}
                 showIndicators={false} showThumbs={false} showStatus={false} className="lg:hidden">
-                <div className='h-60 lg:h-80 mx-2'>
-                    <img className='h-full rounded-xl object-cover' src="/images/explorer.png" />
-                </div>
-                <div className='h-60 lg:h-80 mx-2'>
-                    <img className='h-full rounded-xl object-cover' src="/images/australia.jpg" />
-                </div>             
-                <div className='h-60 lg:h-80 mx-2'>
-                    <img className='h-full rounded-xl object-cover' src="/images/kenya.jpg" />
-                </div>
+                {carouselImages.map((imgSource, index) => {
+                  return (                
+                    <div className='h-60 lg:h-80 mx-2' key={index}>
+                      <img className='h-full rounded-xl object-cover' src={imgSource} />
+                    </div>
+                  )
+                })}
               </Carousel>
             </div>
             <div className='hidden md:block'>
@@ -139,7 +154,7 @@ export default function App() {
               </div>
             </div>
             <div className='relative rounded-xl w-full min-h-[200px] sm:min-h-[300px]'>
-              <Image className='rounded-xl' src="/images/explorer.png" alt="Get Started Image" 
+              <Image className='rounded-xl' src="/images/getstarted.jpg" alt="Get Started Image" 
                 fill style={{objectFit:'cover'}}/>
             </div>
             {/* <h3 className='md:hidden mt-6 font-medium text-center text-lg'>Elevate Your <span className='text-green-600'>Adventure</span>. 

@@ -41,7 +41,7 @@ export default function App() {
         </h1>
         <div className='grid lg:grid-cols-2 mb-8 gap-4 lg:gap-8'>
           <div className='relative min-h-[300px] '>
-            <Image className="rounded-xl" src="/images/explorer.png" fill style={{objectFit: 'cover'}} alt="Product" />
+            <Image className="rounded-xl" src="/images/full.jpg" fill style={{objectFit: 'cover'}} alt="Product" />
           </div>
           <div className='flex flex-col text-justify divide-y-1 divide-slate-300 dark:divide-slate-700'>
             <p className='pb-3'> 

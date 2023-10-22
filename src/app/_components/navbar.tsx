@@ -77,11 +77,11 @@ export default function App() {
         }
         </div>
         <NavbarItem>
-          <Button size="sm" as={Link} href="#" radius="md" variant="flat" color="secondary"
+          <Button size="sm" as={Link} href="https://9e3f75-5.myshopify.com" radius="md" variant="flat" color="secondary"
             className="hidden sm:flex dark:brightness-125">
             Buy Now! <FaShopify className="mx-0"/>
           </Button>
-          <Button size="sm" as={Link} href="#" radius="full" variant="flat" color="secondary"
+          <Button size="sm" as={Link} href="https://9e3f75-5.myshopify.com" radius="full" variant="flat" color="secondary"
             className="sm:hidden dark:brightness-125" isIconOnly>
             <FaShopify className="mx-0"/>
           </Button>
