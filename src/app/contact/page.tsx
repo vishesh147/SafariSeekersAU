@@ -53,6 +53,7 @@ export default function App(){
                         Please provide us with your contact details, and we'll get back to you as soon as possible.
                     </div>
                     <form className="mb-4 rounded-xl p-2 md:p-4 bg-slate-100 dark:bg-slate-800" method="POST" name="contact-us" data-netlify="true">
+                        <input type="hidden" name="contact-us-form" value="contact" />
                         <div className="flex flex-wrap">
                             <div className="grid md:grid-cols-2 gap-2 w-full mb-2">
                                 <Input name="name" isRequired variant="bordered" type="text" label="Name" placeholder="Enter your name" />
