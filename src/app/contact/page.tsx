@@ -52,7 +52,7 @@ export default function App(){
                         If you have a specific question or request, you can use the contact form below. 
                         Please provide us with your contact details, and we'll get back to you as soon as possible.
                     </div>
-                    <form className="mb-4 rounded-xl p-2 md:p-4 bg-slate-100 dark:bg-slate-800">
+                    <form className="mb-4 rounded-xl p-2 md:p-4 bg-slate-100 dark:bg-slate-800" netlify>
                         <div className="flex flex-wrap">
                             <div className="grid md:grid-cols-2 gap-2 w-full mb-2">
                                 <Input isRequired variant="bordered" type="text" label="Name" placeholder="Enter your name" />
