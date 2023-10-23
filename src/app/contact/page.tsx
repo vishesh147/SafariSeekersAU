@@ -55,15 +55,16 @@ export default function App(){
                     <form className="mb-4 rounded-xl p-2 md:p-4 bg-slate-100 dark:bg-slate-800" method="POST" name="contact-us" data-netlify="true">
                         <div className="flex flex-wrap">
                             <div className="grid md:grid-cols-2 gap-2 w-full mb-2">
-                                <Input isRequired variant="bordered" type="text" label="Name" placeholder="Enter your name" />
-                                <Input isRequired variant="bordered" type="text" label="Phone" placeholder="Enter your phone number" />
+                                <Input name="name" isRequired variant="bordered" type="text" label="Name" placeholder="Enter your name" />
+                                <Input name="phone" isRequired variant="bordered" type="number" label="Phone" placeholder="Enter your phone number" />
                             </div>
                             <div className="md:flex w-full mb-2">
-                                <Input isRequired variant="bordered" type="email" label="Email" placeholder="Enter your email" />
+                                <Input name="email" isRequired variant="bordered" type="email" label="Email" placeholder="Enter your email" />
                             </div>
                             <div className="w-full mb-2">
                                 <Textarea
                                     isRequired
+                                    name="message"
                                     variant="bordered"
                                     label="Message"
                                     placeholder="Drop us a message ;)"
