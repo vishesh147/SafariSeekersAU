@@ -70,7 +70,7 @@ export default function App(){
                                 />
                             </div>
                             <div className='w-full text-center lg:text-left'>
-                                <Button size="sm" color="success" variant="flat" className='shadow-md'>
+                                <Button type="submit" size="sm" color="success" variant="flat" className='shadow-md'>
                                     Submit
                                 </Button>  
                             </div>
