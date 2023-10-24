@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React from 'react'
 import { usePathname } from 'next/navigation'
 import { FaShopify } from 'react-icons/fa'
 import {NavbarMenu, NavbarMenuItem, NavbarMenuToggle, Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";

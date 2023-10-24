@@ -1,4 +1,3 @@
-"use client";
 import Image from 'next/image'
 import PromiseCard from './promiseCard'
 import { FcInspection, FcLandscape, FcSupport, FcReading} from "react-icons/fc";

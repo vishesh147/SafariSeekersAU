@@ -1,6 +1,4 @@
 "use client";
-import React from "react";
-
 import {Card, CardBody, Image} from "@nextui-org/react";
 import Link from "next/link";
 import { UrlObject } from "url";

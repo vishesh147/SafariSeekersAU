@@ -1,8 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import {Providers} from "./providers";
-import Navbar from './_components/navbar'
-import Footer from './_components/footer'
 
 export const metadata: Metadata = {
   title: 'Safari Seekers',
@@ -18,11 +16,7 @@ export default function RootLayout({
     <html lang="en" className=''>
       <body className="bg-slate-100 dark:bg-slate-800">
         <Providers>
-          <Navbar />
-          <div className="[&>.container]:dark:bg-slate-900">
-            {children}
-          </div>
-          <Footer />
+          {children}
         </Providers>
       </body>
     </html>

@@ -1,7 +1,5 @@
-"use client";
-import {Card, CardHeader, CardBody, Divider} from "@nextui-org/react";
-import React from "react";
-
+import {Card, CardHeader, CardBody} from "@nextui-org/card";
+import { Divider } from "@nextui-org/divider";
 
 export default function PromiseCard(props: { icon: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; content: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; }) {
   return (

@@ -135,7 +135,7 @@
             "content": "The Expedition Roof Top Tent is your all-access pass to the wilderness, designed with 4WD enthusiasts and avid campers in mind. Whether you're tackling rugged trails or seeking a peaceful escape in nature, this tent delivers unbeatable comfort and convenience."
         },
         "descriptionLong":{
-            "title":"The Nomad Series",
+            "title":"The Expedition Series",
             "content":"The Expedition Roof Top Tent is your ticket to the ultimate 4WD and camping adventure. Whether you're tackling challenging trails or embracing the tranquillity of nature, this tent brings comfort and reliability to your journey. Join the ranks of intrepid adventurers who have discovered the freedom of rooftop camping. Elevate your 4WD experience to new heights with the Expedition Roof Top Tent and conquer the off-road with confidence and style!"
         },
         "features":[
@@ -466,7 +466,7 @@
                 {"spec": "Product Name", "description": "Explorer Roof Top Tent"},
                 {"spec":"Colour", "description":"Gray"},
                 {"spec":"Opening Size", "description":"216 cm x 130 cm x 95 cm"},
-                {"spec":"Closing Size", "description":"216 cm x 130 cm x 24 cm"},
+                {"spec":"Closing Size", "description":"216 cm x 130 cm x 95 cm"},
                 {"spec":"Bed Sizing", "description":"208 cm x 126 cm x 5 cm"},
                 {"spec":"Packaging Size", "description":"222 cm x 139 cm x 25 cm"},
                 {"spec":"Main Fabric (Canvas)", "description":"280G Polyester Cotton Lattice Coating, Waterproof index 3000+"},
@@ -531,7 +531,7 @@
         ]
     },
     "270Awning": {
-        "title": "200W Solar Panel",
+        "title": "270 Degree Awning",
         "shopifyLink": "https://9e3f75-5.myshopify.com/products/safari-seekers-awning-270-degree-awning",
         "imageSrc": "/images/products/awning.png",
         "taglineTitle": "The Ultimate Adventure Companion",

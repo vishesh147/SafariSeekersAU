@@ -1,6 +1,6 @@
-"use client";
 import { BsInstagram, BsFacebook} from 'react-icons/bs'
-import { Button, Input, Textarea } from '@nextui-org/react'
+import { Input, Textarea } from '@nextui-org/input'
+import { Button } from '@nextui-org/button'
 
 export default function App(){
     return(
@@ -38,7 +38,7 @@ export default function App(){
                         <h4 className='font-medium'>Follow Us:</h4>
                         <p className='mb-2'>Stay connected with us on social media for updates, tips, and inspiration for your outdoor adventures.</p> 
                         
-                        <a className="flex items-center gap-4 font-medium mb-1" href=""> 
+                        <a className="flex items-center gap-4 font-medium mb-1" href="https://www.facebook.com/profile.php?id=61551719171524&ref=xav_ig_profile_web"> 
                             <BsFacebook size={20}/> <span className=''>Safari Seekers AU</span> 
                         </a>
                         <a className="flex items-center gap-4 font-medium" href="https://www.instagram.com/safariseekersau/"> 
@@ -52,25 +52,27 @@ export default function App(){
                         If you have a specific question or request, you can use the contact form below. 
                         Please provide us with your contact details, and we'll get back to you as soon as possible.
                     </div>
-                    <form className="mb-4 rounded-xl p-2 md:p-4 bg-slate-100 dark:bg-slate-800">
+                    <form className="mb-4 rounded-xl p-2 md:p-4 bg-slate-100 dark:bg-slate-800" method="POST" name="Contact" data-netlify="true">
+                        <input type="hidden" name="form-name" value="Contact" />
                         <div className="flex flex-wrap">
                             <div className="grid md:grid-cols-2 gap-2 w-full mb-2">
-                                <Input isRequired variant="bordered" type="text" label="Name" placeholder="Enter your name" />
-                                <Input isRequired variant="bordered" type="text" label="Phone" placeholder="Enter your phone number" />
+                                <Input name="Name" isRequired variant="bordered" type="text" label="Name" placeholder="Enter your name" />
+                                <Input name="Phone" isRequired variant="bordered" type="number" label="Phone" placeholder="Enter your phone number" />
                             </div>
                             <div className="md:flex w-full mb-2">
-                                <Input isRequired variant="bordered" type="email" label="Email" placeholder="Enter your email" />
+                                <Input name="Email" isRequired variant="bordered" type="email" label="Email" placeholder="Enter your email" />
                             </div>
                             <div className="w-full mb-2">
                                 <Textarea
                                     isRequired
+                                    name="Message"
                                     variant="bordered"
                                     label="Message"
                                     placeholder="Drop us a message ;)"
                                 />
                             </div>
                             <div className='w-full text-center lg:text-left'>
-                                <Button size="sm" color="success" variant="flat" className='shadow-md'>
+                                <Button type="submit" size="sm" color="success" variant="flat" className='shadow-md'>
                                     Submit
                                 </Button>  
                             </div>

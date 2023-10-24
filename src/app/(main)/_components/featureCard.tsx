@@ -1,6 +1,5 @@
-"use client";
-import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
-import React from "react";
+import {Card, CardHeader, CardBody} from "@nextui-org/card";
+import { Image } from "@nextui-org/image";
 
 export default function FeatureCard(props: { className: string; imgSrc: string | undefined; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; content: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | React.PromiseLikeOfReactNode | null | undefined; }) {
   return (

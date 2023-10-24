@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
 import {BsInstagram, BsTelephone, BsEnvelopeAt} from "react-icons/bs"
 
 export default function Footer() {  
