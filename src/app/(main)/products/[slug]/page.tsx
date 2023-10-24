@@ -212,16 +212,3 @@ export default async function App({ params }: { params: { slug: string } }) {
     </main>
   )
 }
-
-
-export async function getStaticParams() {
-  // console.log(params.slug)
-  // const product = await client.fetch(`*[_type == "product"]`);
-  // console.log(product)
-  // return {
-  //   props: {
-  //     product
-  //   }
-  // };
-
-}
