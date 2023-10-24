@@ -1,6 +1,7 @@
 import { BsInstagram, BsFacebook} from 'react-icons/bs'
 import { Input, Textarea } from '@nextui-org/input'
 import { Button } from '@nextui-org/button'
+import Link from 'next/link'
 
 export default function App(){
     return(
@@ -17,13 +18,13 @@ export default function App(){
                     <div className='py-2'>
                         <h4 className='font-medium'>Phone:</h4>
                         <p>For immediate assistance, you can give Munish a call at  
-                            <a className="font-medium text-blue-600" href="Tel: 0484 076 613"> 0484 076 613</a>
+                            <Link className="font-medium text-blue-600" href="Tel: 0484 076 613"> 0484 076 613</Link>
                         </p>
                     </div>
                     <div className='py-2'>
                         <h4 className='font-medium'>Email:</h4>
                         <p>If you prefer electronic communication, drop us an email at                                 
-                            <a className="font-medium text-blue-600" href="mailto: {sales@safariseekers.com.au}"> sales@safariseekers.com.au</a>. 
+                            <Link className="font-medium text-blue-600" href="mailto: {sales@safariseekers.com.au}"> sales@safariseekers.com.au</Link>. 
                             We typically respond within 24 hours.
                         </p>
                     </div>
@@ -38,12 +39,12 @@ export default function App(){
                         <h4 className='font-medium'>Follow Us:</h4>
                         <p className='mb-2'>Stay connected with us on social media for updates, tips, and inspiration for your outdoor adventures.</p> 
                         
-                        <a className="flex items-center gap-4 font-medium mb-1" href="https://www.facebook.com/profile.php?id=61551719171524&ref=xav_ig_profile_web"> 
+                        <Link className="flex items-center gap-4 font-medium mb-1" href="https://www.facebook.com/profile.php?id=61551719171524&ref=xav_ig_profile_web"> 
                             <BsFacebook size={20}/> <span className=''>Safari Seekers AU</span> 
-                        </a>
-                        <a className="flex items-center gap-4 font-medium" href="https://www.instagram.com/safariseekersau/"> 
-                        <BsInstagram size={20}/> <span className=''>safariseekersau </span> 
-                        </a>
+                        </Link>
+                        <Link className="flex items-center gap-4 font-medium" href="https://www.instagram.com/safariseekersau/"> 
+                            <BsInstagram size={20}/> <span className=''>safariseekersau </span> 
+                        </Link>
                     </div>
                 </div>
                 <div className='lg:pl-8 text-justify'>
