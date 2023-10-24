@@ -13,7 +13,7 @@ export default function App() {
   const menuItems = [
     {'name':"Home", 'link':"/"},
     {'name':"Products", 'link':"/products"},
-    // {'name':"Gallery", 'link':"/gallery"},
+    {'name':"Gallery", 'link':"/gallery"},
     {'name':"Maintenance Guide", 'link':"/maintenance"},
     {'name':"About Us", 'link':"/about"},
     {'name':"Contact Us", 'link':"/contact"},
