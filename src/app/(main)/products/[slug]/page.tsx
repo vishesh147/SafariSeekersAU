@@ -84,7 +84,7 @@ export default async function App({ params }: { params: { slug: string } }) {
 
         { product.isAccessory && product.features && product.features.map((featureCategory:any, index:any) => {
           return (
-            <div className='mb-12 md:mb-16'>
+            <div className='mb-12 md:mb-16' key={index}>
               <div className='grid md:grid-cols-2 gap-4 divide-y-1 divide-slate-300 dark:divide-slate-700 [&>*]:pt-3 
                   [&>*]:md:pt-0 md:divide-y-0 md:gap-y-8 md:gap-x-16 '>
               {
