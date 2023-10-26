@@ -22,7 +22,7 @@ export default async function App() {
                 key={index}
                 href={`products/${ product.slug.current }`}
                 productName={product.title}
-                imgSrc={builder.image(product.image).url()}
+                imgSrc={builder.image(product.image).width(500).url()}
                 description={`${ product.tagline } ${ product.subTagline }`}   
               />
             )
@@ -42,7 +42,7 @@ export default async function App() {
                 key={index}
                 href={`products/${ product.slug.current }`}
                 productName={product.title}
-                imgSrc={builder.image(product.image).url()}
+                imgSrc={builder.image(product.image).width(500).url()}
                 description={`${ product.tagline } ${ product.subTagline }`}   
               />
             )
