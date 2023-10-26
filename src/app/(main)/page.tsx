@@ -13,7 +13,6 @@ const carouselImages = [
   '/images/explorer.png',
   '/images/australia.jpg',
   '/images/full.jpg',
-  '/images/kenya.jpg',
   '/images/newbanner.jpg',  
   '/images/getstarted.jpg',
 ]
