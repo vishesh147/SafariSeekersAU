@@ -26,7 +26,7 @@ export default function App() {
         </h1>
         <div className='grid lg:grid-cols-2 mb-8 gap-4 lg:gap-8'>
           <div className='relative min-h-[300px] '>
-            <Image placeholder="blur" className="rounded-xl" src="/images/tent.jpg" fill style={{objectFit: 'cover'}} alt="Product" />
+            <Image className="rounded-xl" src="/images/tent.jpg" fill style={{objectFit: 'cover'}} alt="Product" />
           </div>
           <ol className='flex flex-col gap-y-2 text-justify list-decimal list-inside font-medium'>
             <li> 
@@ -102,7 +102,7 @@ export default function App() {
             </p>
           </div>
           <div className='relative min-h-[300px] '>
-            <Image placeholder="blur" className="rounded-xl" src="/images/service.jpeg" fill style={{objectFit: 'cover'}} alt="Product" />
+            <Image className="rounded-xl" src="/images/service.jpeg" fill style={{objectFit: 'cover'}} alt="Product" />
           </div>
         </div>
       </div>

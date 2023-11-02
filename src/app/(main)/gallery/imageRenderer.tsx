@@ -11,7 +11,7 @@ export default function ImageRenderer({
       <Image
         fill
         src={photo}
-        placeholder={"blur"}
+        placeholder={"blurDataURL" in photo ? "blur" : undefined}
         {...{ alt, title, sizes, className, onClick }}
         style={{borderRadius: '8px'}}
       />
