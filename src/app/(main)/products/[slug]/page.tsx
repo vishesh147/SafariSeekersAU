@@ -12,7 +12,7 @@ import imageUrlBuilder from '@sanity/image-url'
 export default async function App({ params }: { params: { slug: string } }) {
   const builder = imageUrlBuilder(client)
   
-  const products = await client.fetch(`*[_type == "product" && slug.current == "${ params.slug }" ]`);
+  const products = await client.fetch(`*[_type == "product" && slug.current == "${ params.slug }" ]`,  { next: { revalidate: 3600 } });
   const product = products[0]
   
   if(!product){
