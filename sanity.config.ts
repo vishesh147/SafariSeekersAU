@@ -32,7 +32,7 @@ export default defineConfig({
               {
                 title: 'Safari Seekers AU',
                 apiId: '368b5160-34c6-4375-b012-1ca9ea139e42',
-                buildHookId: 'https://api.netlify.com/build_hooks/65432b3631857e1136fd5465',
+                buildHookId: '65432b3631857e1136fd5465',
                 name: 'safariseekersau',
                 url: 'https://safariseekers.com.au',
               }
