@@ -122,7 +122,7 @@ export default function App() {
             />
             <FeatureCard 
               className=""
-              imgSrc="images/service.avif"
+              imgSrc="images/service.png"
               title="Personalized Service"
               content="We come to you for demonstrations, ensuring you get the perfect rooftop tent for your needs."
             />
