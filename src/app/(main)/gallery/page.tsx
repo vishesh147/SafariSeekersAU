@@ -2,7 +2,7 @@ import { client } from "@/sanity/lib/client";
 import imageUrlBuilder from '@sanity/image-url'
 import PhotoGallery from "./photoGallery";
 
-export default async function Home() {    
+export default async function Gallery() {    
     const builder = imageUrlBuilder(client)
   
     const galleryPhotos = await client.fetch(`*[_type == "galleryImage"]`,  { next: { revalidate: 3600 } });
