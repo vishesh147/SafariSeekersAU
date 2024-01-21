@@ -79,8 +79,8 @@ export default function App() {
             Owning a 4WD myself, I've always yearned for more exploration. This personal passion for off-road adventures drives Safari Seekers, and I'm committed to offering the tools and expertise for your unforgettable journeys.
             </p>
           </div>
-          <div className='relative rounded-xl w-full min-h-[250px]'>
-            <Image className='rounded-xl' fill style={{objectFit: 'cover'}} src="/images/service.jpeg" alt="Founder"/>
+          <div className='relative rounded-xl w-full min-h-[300px] lg:min-h-[400px]'>
+            <Image className='rounded-xl' fill style={{objectFit: 'cover'}} src="/images/founder.jpg" alt="Founder"/>
           </div>
         </div>
       </div>
