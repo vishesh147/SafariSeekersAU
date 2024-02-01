@@ -6,7 +6,6 @@ export default async function Gallery() {
     const builder = imageUrlBuilder(client)
   
     const galleryPhotos = await client.fetch(`*[_type == "galleryImage"]`,  { next: { revalidate: 3600 } });
-    
     const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
     const photos = galleryPhotos.map((photo: any) => {
         const url = builder.image(photo.image).width(1080).url()
