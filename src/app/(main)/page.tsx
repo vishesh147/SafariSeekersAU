@@ -25,7 +25,7 @@ export default async function App() {
 
   return (
     <main>
-      <Image fill style={{objectFit:"cover"}} src='/images/newbanner.jpg' alt='Banner Image' className="brightness-75" />
+      <Image fill style={{objectFit:"cover"}} src='/images/newbanner.jpg' alt='Banner Image' className="brightness-75 bg-black" />
       <div className='h-screen flex backdrop-blur-sm lg:backdrop-blur-none md:items-center'>
         <div className='z-10 px-6 text-slate-100 w-full text-center md:text-start
             md:w-1/2 lg:w-1/3 pt-52 md:pt-0 md:pb-36 md:pl-16 lg:pl-28 px-8 sm:px-12 md:px-0'>
