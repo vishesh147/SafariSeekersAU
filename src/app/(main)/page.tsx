@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import Image from 'next/image'
 import FeatureCard from './_components/featureCard';
@@ -7,37 +7,42 @@ import { Button } from '@nextui-org/react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { BsTelephoneFill } from 'react-icons/bs';
+import TestimonialCard from './_components/testimonialCard';
+import { client } from "@/sanity/lib/client";
 
 
 const carouselImages = [
   '/images/explorer.png',
   '/images/australia.jpg',
   '/images/full.jpg',
-  '/images/newbanner.jpg',  
+  '/images/cartent.jpg',  
   '/images/getstarted.jpg',
 ]
 
-export default function App() {
+export default async function App() {
+
+  const testimonials = await client.fetch(`*[_type == "testimonial"]`,  { next: { revalidate: 3600 } });
+
   return (
     <main>
-        <Image fill style={{objectFit:"cover"}} src='/images/banner.jpg' alt='Banner Image' className="brightness-75" />
-        <div className='h-screen flex backdrop-blur-sm lg:backdrop-blur-none md:items-center'>
-          <div className='z-10 px-6 text-slate-100 w-full text-center md:text-start
-              md:w-1/2 lg:w-1/3 pt-52 md:p-0 md:pl-16 lg:pl-28 px-8 sm:px-12 md:px-0'>
-            {/* <h1 className='mb-1 md:mb-2 text-4xl sm:text-5xl md:text-6xl'>
-              Safari Seekers 
-            </h1> */}
-            <div className='font-semibold mb-2 md:mb-4 flex justify-center'>
-              <Image className="w-full sm:w-2/3 md:w-full" src="/images/logos/textonly2.png" width={1280} height={135} alt='Safari Seekers'/>
-            </div>
-            <h2 className='font-semibold md:mb-2 text-2xl sm:text-3xl md:text-4xl'> 
-              Your Gateway to Adventure
-            </h2>
-            <h3 className='sm:text-lg italic md:text-xl'>
-              Premium Roof Top Tents and Accessories
-            </h3>
+      <Image fill style={{objectFit:"cover"}} src='/images/newbanner.jpg' alt='Banner Image' className="brightness-75" />
+      <div className='h-screen flex backdrop-blur-sm lg:backdrop-blur-none md:items-center'>
+        <div className='z-10 px-6 text-slate-100 w-full text-center md:text-start
+            md:w-1/2 lg:w-1/3 pt-52 md:pt-0 md:pb-36 md:pl-16 lg:pl-28 px-8 sm:px-12 md:px-0'>
+          {/* <h1 className='mb-1 md:mb-2 text-4xl sm:text-5xl md:text-6xl'>
+            Safari Seekers 
+          </h1> */}
+          <div className='font-semibold mb-2 md:mb-4 flex justify-center'>
+            <Image className="w-full sm:w-2/3 md:w-full" src="/images/logos/textonly2.png" width={1280} height={135} alt='Safari Seekers'/>
           </div>
+          <h2 className='font-semibold md:mb-2 text-2xl sm:text-3xl md:text-4xl'> 
+            Your Gateway to Adventure
+          </h2>
+          <h3 className='sm:text-lg italic md:text-xl'>
+            Premium Roof Top Tents and Accessories
+          </h3>
         </div>
+      </div>
 
       <div className='container lg:max-w-7xl mx-auto shadow-xl p-6 md:p-12 bg-slate-200/[0.75] dark:bg-gray-900'>
         <div className='mb-12 md:mb-16'>
@@ -57,7 +62,7 @@ export default function App() {
               <h1>                
                 Explore with <span className='text-blue-600'> Safari Seekers. </span>
               </h1>
-              </div>
+            </div>
             <div className='col-span-2'>
               <Carousel autoPlay interval={3000} infiniteLoop centerMode centerSlidePercentage={60}
                 showIndicators={false} showThumbs={false} showStatus={false} className="hidden lg:block">
@@ -156,11 +161,34 @@ export default function App() {
               <Image className='rounded-xl' src="/images/getstarted.jpg" alt="Get Started Image" 
                 fill style={{objectFit:'cover'}}/>
             </div>
-            {/* <h3 className='md:hidden mt-6 font-medium text-center text-lg'>Elevate Your <span className='text-green-600'>Adventure</span>. 
-                <br/> Explore with <span className='text-blue-600'>Safari Seekers</span>.
-            </h3> */}
           </div>
         </div>
+        
+        { testimonials.length > 0 && 
+        <div className='mb-12 md:mb-16'>
+          <h1 className="text-2xl md:text-3xl font-medium mb-4">
+              Testimonials
+          </h1>
+          <div className='grid grid-cols-1 justify-center'>
+            <Carousel autoPlay interval={15000} infiniteLoop centerMode centerSlidePercentage={testimonials.length >= 2 ? 50 : 100}
+                showIndicators={false} showThumbs={false} showStatus={false} className="hidden lg:flex">
+                {testimonials.map((testimonial:any, index:number) => {
+                  return (                
+                    <TestimonialCard className="mx-3 h-full" testimonial={testimonial} key={index} />
+                  )
+                })}
+            </Carousel>
+            <Carousel autoPlay interval={10000} infiniteLoop centerMode centerSlidePercentage={testimonials.length >= 2 ? 80 : 100}
+                showIndicators={false} showThumbs={false} showStatus={false} className="flex lg:hidden">
+                {testimonials.map((testimonial:any, index:number) => {
+                  return (                
+                    <TestimonialCard className="mx-3 h-full" testimonial={testimonial} key={index} />
+                  )
+                })}
+            </Carousel>
+          </div>
+        </div>
+        }
       </div>
     </main>
   )
