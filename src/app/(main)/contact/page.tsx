@@ -1,9 +1,22 @@
+"use client";
+
 import { BsInstagram, BsFacebook} from 'react-icons/bs'
 import { Input, Textarea } from '@nextui-org/input'
 import { Button } from '@nextui-org/button'
 import Link from 'next/link'
 
 export default function App(){
+
+    const handleFormSubmit = async (event: any) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        await fetch("/__forms.html", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(formData as any).toString(),
+        });
+      };
+
     return(
         <main className='min-h-screen mt-16 p-6 md:p-12 container lg:max-w-7xl mx-auto shadow-xl bg-slate-200/[0.75]'>
             <h1 className="text-2xl md:text-3xl font-medium mb-4">
@@ -53,7 +66,7 @@ export default function App(){
                         If you have a specific question or request, you can use the contact form below. 
                         Please provide us with your contact details, and we'll get back to you as soon as possible.
                     </div>
-                    <form className="mb-4 rounded-xl p-2 md:p-4 bg-slate-100 dark:bg-slate-800" method="POST" name="Contact" data-netlify="true">
+                    <form className="mb-4 rounded-xl p-2 md:p-4 bg-slate-100 dark:bg-slate-800" name="Contact" onSubmit={handleFormSubmit}>
                         <input type="hidden" name="form-name" value="Contact" />
                         <div className="flex flex-wrap">
                             <div className="grid md:grid-cols-2 gap-2 w-full mb-2">
